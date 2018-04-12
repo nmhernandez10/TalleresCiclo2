@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert()">{{alert.msg}} </alert>
-<ul class="list-group">    
-        <div ng-repeat="trainer in trainersRecords">
-            
-                <li class="list-group-item">{{trainer.name}}</li>
-            
-        </div>    
-</ul>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-md-2" ng-repeat="trainer in trainersRecords">
+            <div class="thumbnail">
+                <a ui-sref="trainerDetail({trainerId: trainer.id})">          
+                    <img class="img-responsive" ng-src='{{trainer.image}}' alt="{{trainer.name}}" />  
+                </a>
+                <div class="caption text-center">{{trainer.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

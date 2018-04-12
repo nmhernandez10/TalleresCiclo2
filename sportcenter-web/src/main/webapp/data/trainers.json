@@ -1,20 +1,28 @@
 [
     {
         "id": 1,
-        "name": "Jose Perez"
+        "name": "Jose Perez",
+        "image":"https://www.precor.com/es-xl/blog/wp-content/uploads/sites/6/2017/02/Precor_In-Club_DPL-DSL-Coach_C1_1311-600x400.jpg",
+        "description":"Soy José Pérez, el mejor."
     }
     ,
     {
         "id": 2,
-        "name": "Angie Gamba"
+        "name": "Angie Gamba",
+        "image":"http://www.reebokclub.com/file/ep_2.jpg",
+        "description":"Soy Angie Gamba, me gustaría ayudarte con las cosas."
     },
     {
         "id": 3,
-        "name": "Mauricio Torres"
+        "name": "Mauricio Torres",
+        "image":"https://entrenar.me/assets/images/landing/entrenador.png",
+        "description":"Soy Mauricio Torres, empecemos a entrenar."
     },
     {
         "id": 4,
-        "name": "Liliana Sánchez"
+        "name": "Liliana Sánchez",
+        "image":"https://guiafitness.com/wp-content/uploads/como-buscar-un-entrenador-personal-en-internet.jpg",
+        "description":"Soy Liliana, y seré tu entrenadora personal si lo deseas."
     }
 ]
  

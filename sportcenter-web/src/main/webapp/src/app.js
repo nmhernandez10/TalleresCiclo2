@@ -5,8 +5,7 @@
         'ui.bootstrap',
         // Internal modules dependencies       
         'sportModule',
-        'trainerModule',
-        'sportcenterModule'
+        'trainerModule'
        
 
     ]);
